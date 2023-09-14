@@ -46,7 +46,7 @@ namespace Contribuições
 	        	a[1] = comboBox1.Text;
 	        	b[0] = float.Parse(textBox2.Text);
 	        	richTextBox1.Text += a[0] + "\t" + a[1] + "\t" + b[0].ToString() + "\n";
-	        	richTextBox1.SaveFile("c4ontribuições.txt", RichTextBoxStreamType.PlainText);
+	        	richTextBox1.SaveFile("contribuições.txt", RichTextBoxStreamType.PlainText);
 	        	p++;
 	        	soma[0] += b[0];
 	        	if(a[1]=="Gerência")
